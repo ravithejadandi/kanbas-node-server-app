@@ -1,14 +1,13 @@
 import express from 'express';
-import CourseRoutes from './Courses/routes.js';
-import ModuleRoutes from './Modules/routes.js';
-import UserRoutes from './Users/routes.js';
-import session from 'express-session';
 import Hello from './hello.js';
 import Lab5 from './Lab5.js';
 import cors from 'cors';
 import 'dotenv/config';
 import mongoose from 'mongoose';
-
+import CourseRoutes from './Courses/routes.js';
+import ModuleRoutes from './Modules/routes.js';
+import UserRoutes from './Users/routes.js';
+import session from 'express-session';
 
 const app = express();
 app.use(
