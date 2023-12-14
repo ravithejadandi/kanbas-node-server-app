@@ -13,7 +13,7 @@ const app = express();
 app.use(
     cors({
       credentials: true,
-      origin: '*',
+      origin: 'https://a6--melodious-frangollo-b2c60c.netlify.app/',
     })
   );
   const sessionOptions = {
